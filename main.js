@@ -10,11 +10,11 @@ let record = new webkitSpeechRecognition();
 // record.onstart = function(){
 // console.log("boshlandi");
 // }
-record.lang = "uz=UZ";
+// record.lang = "uz=UZ";
 
-record.onend = function () {
-  console.log("Tugadi");
-}
+// record.onend = function () {
+//   console.log("Tugadi");
+// }
 
 record.onresult = function (evt) {
   const result = evt.results[0][0].transcript;
